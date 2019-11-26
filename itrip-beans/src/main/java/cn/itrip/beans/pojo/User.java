@@ -7,6 +7,15 @@ public class User {
     private Integer userType;
     private Integer flatID;
     private String userName;
+    private String weChat;
+
+    public String getWeChat() {
+        return weChat;
+    }
+
+    public void setWeChat(String weChat) {
+        this.weChat = weChat;
+    }
 
     public Integer getId() {
         return id;
